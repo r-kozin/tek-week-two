@@ -1,0 +1,260 @@
+div {
+  /* border: 1px solid black; */
+}
+
+.img_container {
+  margin-left: 10px;
+  align-self: center;
+}
+.img_container img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body p,
+.card-body h1 {
+  margin: 8px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h2 {
+}
+.topInfo {
+  display: flex;
+  background-color: rgb(55, 55, 55);
+  border: 1px solid black;
+  /* align-items: center; */
+}
+.title {
+  display: block;
+  margin-left: 15px;
+  color: white;
+}
+
+.title h3 {
+  margin-top: -20px;
+  color: aqua;
+}
+.topSidebar {
+  margin-left: auto;
+  color: white;
+}
+.topSidebar li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+.employment {
+  height: auto;
+  width: 1000px;
+  align-content: flex-start;
+  flex-grow: 2;
+}
+.employment h2 {
+  background-color: grey;
+  width: 100%;
+}
+.employment h3 {
+  color: white;
+  width: 100%;
+}
+.employment p {
+  color: rgb(122, 122, 122);
+  width: 100%;
+}
+.sidebar {
+  border: 1px solid black;
+  margin-left: auto;
+  height: auto;
+  width: 300px;
+  flex-grow: 1;
+}
+.bottomInfo {
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(55, 55, 55);
+  display: flex;
+}
+.topSubInfo {
+  background-color: rgb(55, 55, 55);
+  display: flex;
+}
+.education {
+  height: 300px;
+  width: 1000px;
+}
+.sidebar {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.sidebar h2 {
+  align-self: center;
+  margin-bottom: -5px;
+  color: white;
+}
+.sidebar h3 {
+  margin-left: 20px;
+  margin-bottom: -15px;
+  color: white;
+}
+.sidebar h5 {
+  align-self: left;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  color: white;
+}
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.progressbar {
+  color: #000;
+  background-color: #747474;
+  margin: 2px auto;
+  width: 85%;
+  border: 1px solid black;
+}
+.progressbar:hover {
+  color: #000;
+  background-color: #f1f1f1;
+}
+.w3-blue,
+.w3-hover-blue:hover {
+  color: #fff !important;
+  background-color: #2196f3 !important;
+}
+.red,
+.red:hover {
+  color: #fff !important;
+  background-color: red !important;
+}
+.green,
+.green:hover {
+  color: #fff !important;
+  background-color: green !important;
+}
+.yellow,
+.yellow:hover {
+  color: black !important;
+  background-color: yellow !important;
+}
+.orange,
+.orange:hover {
+  color: #fff !important;
+  background-color: orange !important;
+}
+#graphics {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#graphics li {
+  padding-left: 1em;
+  text-indent: -0.7em;
+  color: white;
+  margin-bottom: -8px;
+  font-size: 13px;
+}
+
+#graphics li::before {
+  font-size: 25px;
+  content: "■ ";
+  color: teal; /* or whatever color you prefer */
+  margin-left: 20px;
+}
+#graphics li:nth-child(2):before {
+  font-size: 25px;
+  content: "■ ";
+  color: skyblue; /* or whatever color you prefer */
+}
+#graphics li:nth-child(3):before {
+  font-size: 25px;
+  content: "■ ";
+  color: green; /* or whatever color you prefer */
+}
+#graphics li:nth-child(4):before {
+  font-size: 25px;
+  content: "■ ";
+  color: orange; /* or whatever color you prefer */
+}
+#graphics li:nth-child(5):before {
+  font-size: 25px;
+  content: "■ ";
+  color: red; /* or whatever color you prefer */
+}
+.starchecked {
+  color: orange;
+}
+.languageSkills {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 250px;
+  /* border: 1px solid black; */
+}
+.circles1 {
+  /* border: 1px solid black; */
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.circles2 {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.circles3 {
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.circles1 h5 {
+  /* border: 1px solid black; */
+  width: 60px;
+}
+.circles1 span {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.circles2 h5 {
+  /* border: 1px solid black; */
+  width: 60px;
+}
+.circles2 span {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.circles3 h5 {
+  /* border: 1px solid black; */
+  width: 60px;
+}
+.circles3 span {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.frenchchecked {
+  color: red;
+}
+.spanishchecked {
+  color: skyblue;
+}
