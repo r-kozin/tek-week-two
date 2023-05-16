@@ -389,11 +389,15 @@ a:visited {
   .otherSkills {
     margin-top: -15px;
     align-self: center;
+    text-align: center;
   }
   .languageSkills {
     align-self: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
-  .circles1 {
-    align-self: 100%;
+  .circles1, .circles2, .circles3 {
+  justify-content: center;
   }
 }
