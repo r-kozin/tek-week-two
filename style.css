@@ -1,6 +1,9 @@
 div {
   /* border: 1px solid black; */
 }
+body {
+  /* background-color: rgb(55, 55, 55); */
+}
 
 .img_container {
   margin-left: 10px;
@@ -20,8 +23,7 @@ div {
   justify-content: center;
   flex-wrap: wrap;
 }
-h2 {
-}
+
 .topInfo {
   display: flex;
   background-color: rgb(55, 55, 55);
@@ -41,10 +43,28 @@ h2 {
 .topSidebar {
   margin-left: auto;
   color: white;
+  display: flex;
+  flex-direction: row;
 }
-.topSidebar li {
+.topSidebarLabels {
+  /* border: 1px solid black; */
+}
+
+.topSidebarData {
+  width: auto;
+  margin-left: -25px;
+}
+.topSidebarLabels li {
+  align-content: right;
+  list-style-type: none;
+  text-align: right;
+  font-weight: bold;
+}
+.topSidebarData li {
   list-style-type: none;
   margin-right: 30px;
+  text-align: left;
+  font-weight: bold;
 }
 .employment {
   height: auto;
@@ -76,10 +96,13 @@ h2 {
   height: 1000px;
   background-color: rgb(55, 55, 55);
   display: flex;
+  padding: 5px;
 }
 .topSubInfo {
   background-color: rgb(55, 55, 55);
   display: flex;
+  color: white;
+  padding-left: 5px;
 }
 .education {
   height: 300px;
@@ -257,4 +280,42 @@ body {
 }
 .spanishchecked {
   color: skyblue;
+}
+a:hover {
+  color: white;
+  cursor: pointer;
+}
+a:active {
+  color: white;
+  cursor: pointer;
+}
+a:visited {
+  color: plum;
+  cursor: pointer;
+}
+.employment h2::before{
+  font-size: 25px;
+  content: "⬇ ";
+  color: rgb(91, 206, 150); /* or whatever color you prefer */
+  margin-left: 0px;
+}
+.jobListed h3::before {
+  font-size: 25px;
+  content: "→ ";
+  color: rgb(91, 206, 150); /* or whatever color you prefer */
+  margin-left: 0px;
+}
+.toTop {
+  border: 0.1px solid;
+  width: 30px;
+  height: auto;
+  text-align: center;
+  font-size: 30px;
+  margin: 15px;
+  position: sticky;
+  bottom: 0;
+  opacity: 50%;
+}
+.toTop:hover{
+  cursor: pointer;
 }
